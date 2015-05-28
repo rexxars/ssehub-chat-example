@@ -1,0 +1,40 @@
+{
+  "name": "ssehub-chat-example",
+  "version": "1.0.0",
+  "description": "Simple chat example demonstrating the SSE Hub",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "tape test/**/*.test.js",
+    "dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rexxars/ssehub-chat-example.git"
+  },
+  "keywords": [
+    "sse-hub",
+    "sse",
+    "chat"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/ssehub-chat-example/issues"
+  },
+  "homepage": "https://github.com/rexxars/ssehub-chat-example",
+  "devDependencies": {
+    "eslint": "^0.21.2",
+    "eslint-plugin-react": "^2.3.0",
+    "jsx-loader": "^0.13.2",
+    "node-libs-browser": "^0.5.2",
+    "vgno-coding-standards": "^1.0.6",
+    "webpack": "^1.9.10"
+  },
+  "dependencies": {
+    "hapi": "^8.5.2",
+    "joi": "^6.4.3",
+    "react": "^0.13.3",
+    "xhr": "^2.0.1",
+    "zmq": "^2.11.1"
+  }
+}
